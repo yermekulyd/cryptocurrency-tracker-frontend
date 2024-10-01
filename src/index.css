@@ -7,3 +7,46 @@
   line-height: 1.5;
   font-weight: 400;
 }
+
+.cardStyle {
+  width: 450px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.cardStyle .ant-card-head {
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.cardStyle .ant-card-body {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.currencyImg {
+  width: 42px;
+  height: 42px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
