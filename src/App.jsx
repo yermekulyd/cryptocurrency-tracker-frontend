@@ -1,12 +1,11 @@
-
+import CryptocurrencyCard from "./components/CryptocurrencyCard";
 
 function App() {
-
   return (
-    <>
-      Hello
-    </>
-  )
+    <div>
+      <CryptocurrencyCard />
+    </div>
+  );
 }
 
-export default App
+export default App;
